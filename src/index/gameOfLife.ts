@@ -45,8 +45,6 @@ export class gameOfLife {
             }
             newGrid.push(row);            
         }
-        console.log(this.gridTrue);
-        
         
         this.grid = newGrid;
         this.gridTrue = newGridTrue;

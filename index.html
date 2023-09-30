@@ -11,6 +11,24 @@
     <div id="app" class="container">
       <canvas id="canvas" width="500" height="500"></canvas>
 
+      <div class="config">
+        <div class="value">
+          <p>Init % Alive Cells: </p>
+          <p id="initVal">2</p>
+        </div>
+        <div class="slidecontainer">
+          <input type="range" min="10" max="70" value="50" class="slider" id="rangeInit">
+        </div>
+        <button id="restart">restart</button>
+        <div class="slidecontainer">
+          <input type="range" min="10" max="500" value="100" class="slider" id="rangeSize">
+        </div>
+        <div class="value">
+          <p>Grid size: </p>
+          <p id="sizeVal">2</p>
+        </div>
+
+      </div>
     </div>
     <script type="module" src="/src/index/index.ts"></script>
   </body>
